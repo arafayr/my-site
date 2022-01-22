@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-image: linear-gradient(to right, #9cd8fc, rgb(154, 145, 194));
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    
+    
+}
+nav h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    
+}
+nav ul li{
+    margin: 0 15px;
+}
+section{
+    padding-top: 35px;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+img{
+    position: relative;
+    height: 16rem;
+    width: 16rem;
+    border-top: 0;
+    border-left: 0;
+    border-left-color: blue;
+    border-bottom: 5px solid blue;;
+    border-right: 5px
+ solid blue;;
+    border-top-color: blue;;
+    transition: 0.5s;
+}
+.home_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.home_container h1{
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+.home_container p{
+    color: rgb(39, 39, 39);
+    font-style: italic;
+    margin-left: 10px;
+}
+.home_content{
+    margin: 50px;
+}
+.home_content button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+.home_content button:hover{
+    background-color: rgb(0, 0, 0,0);
+    color: black;
+    border: 1px solid black;
+}
+.contact_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.contact_container h1{
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact_container span a{
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(0, 0, 197);
+}
+.contact_container ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.contact_container ul li{
+    margin: 0 10px ;
+}
+.at::before{
+    content: "@";
+    font-size: 200px;
+    opacity: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.skill_content h1{
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+.img_container img{
+    width: 150px;
+    height:150px;
+    border: none;
+    padding: 25px;
+}
+.skills{
+    margin:  35px;
+}
+.interests{
+    text-align: left;
+    font-size: 15px;
+    
+}
+.interests ul li{
+    font-style: italic;
+    padding:  10px;
+}
+/* responsive */
+/* for mobile */
+@media only screen and (max-width: 600px) {
+    .home_container{
+        flex-direction: column;
+    }
+    .home_container h1{
+        font-size: 40px;
+    }
+    .home_container p{
+        font-size: 20px;
+    }
+    .home_content button{
+        font-size: 10px;
+    }
+    .contact_container h1{
+        font-size: 40px;
+    }
+    .contact_container span a{
+        font-size: 30px;
+    }
+    .contact_container ul{
+        flex-direction: column;
+    }
+    .contact_container ul li{
+        margin: 0;
+    }
+    .skill_content h1{
+        font-size: 40px;
+    }
+    .img_container img{
+        width: 100px;
+        height:100px;
+    }
+    .skills{
+        margin:  20px;
+    }
+    .interests{
+        font-size: 10px;
+    }
+}
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .home_container h1{
+        font-size: 60px;
+    }
+    .home_container p{
+        font-size: 30px;
+    }
+    .home_content button{
+        font-size: 20px;
+    }
+    .contact_container h1{
+        font-size: 60px;
+    }
+    .contact_container span a{
+        font-size: 50px;
+    }
+    .contact_container ul{
+        flex-direction: column;
+    }
+    .contact_container ul li{
+        margin: 0;
+    }
+    .skill_content h1{
+        font-size: 60px;
+    }
+    .img_container img{
+        width: 200px;
+        height:200px;
+    }
+    .skills{
+        margin:  50px;
+    }
+    .interests{
+        font-size: 20px;
+    }
+}
