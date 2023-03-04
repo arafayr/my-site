@@ -1,3 +1,9 @@
-# my-site
+<div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0e71f970-ae13-4b79-80fc-3c2e0eb92d90/deploy-status)](https://app.netlify.com/sites/abdur-rafay/deploys)
+<h1>my-site</h1>
+
+<img src="https://i.imgur.com/WxM1TV0.png" alt="my-site preview">
+
+<p> view it live <a href="https://arafayr.github.io/my-site/" target="__blank">here</a></p
+
+</div>
